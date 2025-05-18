@@ -1,6 +1,3 @@
-# kali-termux-udocker
-Install and run Kali Nethunter inside udocker in termux | no root
-
 # Requirements 
 ```
 pkg update && pkg upgrade -y && pkg install wget proot tar git python3 -y
@@ -26,6 +23,16 @@ udocker create --name=kali kalilinux/kali-rolling
 ```
 udocker run -it kali  
 ```
+---
+| Command | Description |  
+|---------|-------------|  
+| `udocker ps` | List containers |  
+| `udocker start kali` | Start Kali |  
+| `udocker attach kali` | Re-enter Kali |  
+| `udocker rm kali` | Delete Kali |  
+
+---
+
 
 # Other options
 ```
