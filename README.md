@@ -52,9 +52,9 @@ udocker --help
 ```
 udocker pull blackarchlinux/blackarch
 ```
--
+- Archlinux
 ```
-
+udocker pull archlinux
 ```
 -
 ```
