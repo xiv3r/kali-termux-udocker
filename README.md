@@ -6,7 +6,7 @@ pkg update && pkg upgrade -y && pkg install udocker -y
 ```
 ## 2. Install kali container
 ```
-udocker pull kalilinux
+udocker pull kalilinux/kali-rolling
 ```
 ## 3. Create a kali container
 ```
