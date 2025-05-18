@@ -88,4 +88,20 @@ udocker pull gentoo/stage3
 ```
 udocker pull opensuse/leap:latest
 ```
--
+- Slackware
+```
+udocker pull vbatts/slackware:latest
+```
+- Void
+```
+udocker pull voidlinux/voidlinux
+```
+- Alma
+```
+udocker pull almalinux:9
+```
+- Artix
+```
+udocker pull artixlinux/base
+```
+
