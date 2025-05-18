@@ -48,7 +48,7 @@ udocker --help
 ```
 
 ## Similar Docker Images
-- Blackarch Linux
+- Blackarch
 ```
 udocker pull blackarchlinux/blackarch
 ```
@@ -56,7 +56,11 @@ udocker pull blackarchlinux/blackarch
 ```
 udocker pull archlinux
 ```
--
+- Ubuntu 
 ```
-
+udocker pull ubuntu
+```
+- Debian
+```
+udocker pull debian
 ```
