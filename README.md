@@ -1,24 +1,16 @@
 ## 1. Requirements 
 ```
-pkg update && pkg upgrade -y && pkg install wget proot tar git python3 -y
+pkg update && pkg upgrade -y && pkg install udocker -y
 ```
-## 2. Install udocker
-```
-git clone https://github.com/xiv3r/kali-termux-udocker.git
-cd kali-termux-udocker
-```
-```
-bash install.sh
-```
-## 3. Install kali nethunter
+## 2. Install kali container
 ```
 udocker pull kalilinux/kali-rolling
 ```
-## 4. Create a kali container
+## 3. Create a kali container
 ```
 udocker create --name=kali kalilinux/kali-rolling  
 ```
-## 5. Run kali
+## 4. Run kali
 ```
 udocker run kali  
 ```
@@ -31,7 +23,7 @@ udocker run kali
 | `udocker rm kali` | Delete Kali |
 
 ---
-## 6. Update & Upgrade kali
+## 5. Update & Upgrade kali
 ```
 apt update && apt upgrade -y
 ```
@@ -39,7 +31,7 @@ apt update && apt upgrade -y
 ```
 apt install nano git vim sudo wget curl telnet ssh traceroute -y
 ```
-## 7. GUI Setup (Optional - Requires VNC)** 
+## 6. GUI Setup (Optional - Requires VNC)** 
 ```
 apt install tightvncserver xfce4 -y
 ```
@@ -48,8 +40,7 @@ vncserver :1 -geometry 1280x720 -depth 24
 ```  
 → Connect via **VNC Viewer** to `localhost:5901`
 
-
-## 8. Other options
+## 7. Other options
 ```
 udocker --help
 ```
