@@ -31,7 +31,7 @@ apt update && apt upgrade -y
 ```
 apt install nano git vim sudo wget curl telnet ssh traceroute -y
 ```
-## 6. GUI Setup (Optional - Requires VNC)** 
+## 6. GUI Setup (Optional - Requires VNC)
 ```
 apt install tightvncserver xfce4 -y
 ```
