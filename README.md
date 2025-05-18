@@ -21,7 +21,7 @@ udocker create --name=kali kalilinux/kali-rolling
 ```
 # Run kali
 ```
-udocker run -it kali  
+udocker run kali  
 ```
 ---
 | Command | Description |  
