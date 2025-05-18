@@ -58,17 +58,29 @@ udocker pull archlinux
 ```
 - Ubuntu 
 ```
-udocker pull ubuntu
+udocker pull ubuntu:22.04
 ```
 - Debian
 ```
-udocker pull debian
+udocker pull debian:bookworm
 ```
 - Alpine
 ```
-udocker pull alpine
+udocker pull alpine:latest
 ```
 - CentOS
 ```
-udocker pull centos
+udocker pull centos:7
+```
+- Parrot Sec
+```
+udocker pull parrotsec/security:latest
+```
+- Fedora
+```
+udocker pull fedora:latest
+```
+- Gentoo
+```
+udocker pull gentoo/stage3
 ```
