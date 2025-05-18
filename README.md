@@ -47,7 +47,11 @@ vncserver :1 -geometry 1280x720 -depth 24
 udocker --help
 ```
 
-## 8. Similar Docker Images
+<details><summary>
+
+## 8. Similar Udocker Images
+</summary>
+  
 - Blackarch
 ```
 udocker pull blackarchlinux/blackarch
@@ -104,4 +108,5 @@ udocker pull almalinux:9
 ```
 udocker pull artixlinux/base
 ```
+</details>
 
