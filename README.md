@@ -2,7 +2,7 @@
 ```
 pkg update && pkg upgrade -y && pkg install wget proot tar git python3 -y
 ```
-# Installation
+# Install udocker
 ```
 git clone https://github.com/xiv3r/kali-termux-udocker.git
 cd kali-termux-udocker
@@ -10,7 +10,6 @@ cd kali-termux-udocker
 ```
 bash install.sh
 ```
-
 # Install kali nethunter
 ```
 udocker pull kalilinux/kali-rolling
@@ -29,10 +28,9 @@ udocker run kali
 | `udocker ps` | List containers |  
 | `udocker start kali` | Start Kali |  
 | `udocker attach kali` | Re-enter Kali |  
-| `udocker rm kali` | Delete Kali |  
+| `udocker rm kali` | Delete Kali |
 
 ---
-
 
 # Other options
 ```
