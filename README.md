@@ -83,12 +83,18 @@ udocker run kali
 ---
 | Command | Description |  
 |---------|-------------|  
-| `udocker ps` | List containers |  
-| `udocker start kali` | Start Kali |  
-| `udocker attach kali` | Re-enter Kali |  
-| `udocker rm kali` | Delete Kali |
+| `udocker ps` | List containers |
 
 ---
+
+## Uninstall 
+```
+udocker rm kali
+```
+## Exit
+```
+exit
+```
 ## 5. Update & Upgrade kali
 ```
 apt update && apt upgrade -y
