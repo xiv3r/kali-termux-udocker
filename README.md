@@ -35,6 +35,10 @@ udocker run kali
 ```
 apt update && apt upgrade -y
 ```
+- install common tools
+```
+apt install nano git vim sudo wget curl telnet ssh traceroute -y
+```
 ## 7. GUI Setup (Optional - Requires VNC)** 
 ```
 apt install tightvncserver xfce4 -y
