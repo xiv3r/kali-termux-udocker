@@ -84,3 +84,8 @@ udocker pull fedora:latest
 ```
 udocker pull gentoo/stage3
 ```
+- Opensuse
+```
+udocker pull opensuse/leap:latest
+```
+-
