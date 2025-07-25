@@ -16,23 +16,23 @@ udocker pull blackarchlinux/blackarch
 ```
 - Archlinux
 ```
-udocker pull archlinux
+udocker pull archlinux/archlinux
 ```
 - Ubuntu 
 ```
-udocker pull ubuntu:22.04
+udocker pull ubuntu/ubuntu:22.04
 ```
 - Debian
 ```
-udocker pull debian:bookworm
+udocker pull debian/debian:bookworm
 ```
 - Alpine
 ```
-udocker pull alpine:latest
+udocker pull alpine/alpine:latest
 ```
 - CentOS
 ```
-udocker pull centos:7
+udocker pull centos/centos:7
 ```
 - Parrot Sec
 ```
